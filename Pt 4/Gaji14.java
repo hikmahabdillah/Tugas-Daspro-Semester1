@@ -2,9 +2,12 @@ import java.util.Scanner;
 public class Gaji14 {
   public static void main(String[] args) {
     Scanner input = new Scanner(System.in);
-      int jmlMasuk, jmlTdkMasuk, totGaji;
-      int gaji = 40000, potGaji=25000;
+      int jmlMasuk, jmlTdkMasuk, totGaji, gaji, potGaji;
 
+      System.out.println("Masukkan Jumlah Gaji Anda ");
+      gaji=input.nextInt();
+      System.out.println("Masukkan Jumlah Potongan Gaji Anda ");
+      potGaji=input.nextInt();
       System.out.println("Masukkan Jumlah Hari Masuk Kerja Anda ");
       jmlMasuk=input.nextInt();
       System.out.println("Masukkan Jumlah Hari Tidak Masuk Kerja Anda ");
