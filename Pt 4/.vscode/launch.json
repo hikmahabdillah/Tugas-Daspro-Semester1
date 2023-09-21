@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "HargaBayar14",
+      "request": "launch",
+      "mainClass": "HargaBayar14",
+      "projectName": "Pt 4_59a9be9b"
+    },
+    {
+      "type": "java",
       "name": "Gaji14",
       "request": "launch",
       "mainClass": "Gaji14",
