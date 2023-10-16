@@ -23,6 +23,14 @@ public class DoWhileCuti14 {
                         System.out.println("Sisa jatah cuti: " + jatahCuti);
                     } else {
                         System.out.println("Sisa jatah cuti Anda tidak mencukupi"); 
+                        System.out.println("apakah anda ingin mengisi lagi (y/t)?");
+                        konfirmasi = scan14.next();
+                        
+                        System.out.print("Jumlah hari: "); 
+                        jumlahHari = scan14.nextInt();
+                        jatahCuti -= jumlahHari; 
+                        System.out.println("Sisa jatah cuti: " + jatahCuti);
+
                         break;
                     }
                 } 
