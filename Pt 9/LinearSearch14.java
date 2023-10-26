@@ -10,7 +10,6 @@ public class LinearSearch14 {
       }
     }
     System.out.println("Key ada dalam array pada posisi indeks ke-" + hasil);
-
   }
 
 }
