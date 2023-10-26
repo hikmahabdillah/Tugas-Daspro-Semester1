@@ -6,7 +6,6 @@ public class TugasArray14 {
 
     // jml elemen
     int x = 0;
-    double nilaiTertinggi, nilaiTerendah;
 
     System.out.print("Masukkan jumlah elemen : ");
     x = sc.nextInt();
