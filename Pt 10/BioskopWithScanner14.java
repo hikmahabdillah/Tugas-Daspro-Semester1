@@ -47,13 +47,6 @@ public class BioskopWithScanner14 {
               continue; // kembali ke input kolom
             }
 
-            // Cek apakah kursi sudah terisi atau belum
-            if (penonton[baris - 1][kolom - 1] != null) {
-              System.out.println("Kursi tersebut telah terisi oleh penonton lainnya");
-              System.out.println("masukkan input an baris dan kolom kembali");
-              continue;// Kembali ke input
-            }
-
             // input baris dan kolom dikurang 1 agar bisa masuk ke indeks pada array
             // yang kemudian ditampung di array penonton sebagai nama
             penonton[baris - 1][kolom - 1] = nama;
@@ -64,6 +57,13 @@ public class BioskopWithScanner14 {
             if (next.equalsIgnoreCase("n")) {
               break;
             }
+            // Cek apakah kursi sudah terisi atau belum
+            if (penonton[baris - 1][kolom - 1] != null) {
+              System.out.println("Kursi tersebut telah terisi oleh penonton lainnya");
+              System.out.println("masukkan input an baris dan kolom kembali");
+              continue;// Kembali ke input
+            }
+
           }
           break;
         case 2:
