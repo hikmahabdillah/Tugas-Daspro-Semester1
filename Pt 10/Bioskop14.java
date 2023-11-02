@@ -39,9 +39,15 @@ public class Bioskop14 {
 
     // modif no 6
 
-    System.out.println(penonton.length);
-    for (String[] barisPenonton : penonton) {
-      System.out.println("Panjang baris: " + barisPenonton.length);
+    // System.out.println(penonton.length);
+    // for (String[] barisPenonton : penonton) {
+    // System.out.println("Panjang baris: " + barisPenonton.length);
+    // }
+
+    // modif no 10
+    // x adalah variable untuk menyimpan indeks kolom
+    for (int x = 0; x < 2; x++) {
+      System.out.println("Nama penonton pada baris ke-3 kolom ke-" + x + ": " + penonton[2][x]);
     }
 
   }
