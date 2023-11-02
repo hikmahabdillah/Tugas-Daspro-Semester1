@@ -46,9 +46,14 @@ public class Bioskop14 {
 
     // modif no 10
     // x adalah variable untuk menyimpan indeks kolom
-    for (int x = 0; x < 2; x++) {
-      System.out.println("Nama penonton pada baris ke-3 kolom ke-" + x + ": " + penonton[2][x]);
-    }
+    // for (int x = 0; x < 2; x++) {
+    // System.out.println("Nama penonton pada baris ke-3 kolom ke-" + x + ": " +
+    // penonton[2][x]);
+    // }
 
+    // modif no 11 n 12
+    for (String nama : penonton[2]) {
+      System.out.println("Nama penonton pada baris ke-3: " + nama);
+    }
   }
 }
