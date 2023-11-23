@@ -11,10 +11,6 @@ public class NilaiMahasiswa_14 {
     int jumlahMhs = input14.nextInt();
     namaMhs = new String[jumlahMhs];
 
-    System.out.print("Masukkan jumlah tugas: ");
-    int jumlahTugas = input14.nextInt();
-    nilaiTugas = new int[jumlahMhs][jumlahTugas];
-
     for (int i = 0; i < namaMhs.length; i++) {
       System.out.println("Masukkan Nama mahasiswa :");
       namaMhs[i] = input14.next();
@@ -30,14 +26,14 @@ public class NilaiMahasiswa_14 {
   // hingga minggu ketujuh
   public static void tampilkanNilaiMahasiswa() {
     System.out.println("\nSeluruh Nilai Mahasiswa :");
-    System.out.printf("| %-10s | %-15s | %-15s | %-15s | %-15s | %-15s | %-15s | %-15s |\n", "NAMA", "MINGGU 1",
+    System.out.printf("| %-10s | %-10s | %-10s | %-10s | %-10s | %-10s | %-10s | %-10s |\n", "NAMA", "MINGGU 1",
         "MINGGU 2", "MINGGU 3", "MINGGU 4", "MINGGU 5", "MINGGU 6", "MINGGU 7");
 
     for (int i = 0; i < namaMhs.length; i++) {
       System.out.printf("| %-10s", namaMhs[i]);
 
       for (int j = 0; j < nilaiTugas[i].length; j++) {
-        System.out.printf(" | %-15s", nilaiTugas[i][j]);
+        System.out.printf(" | %-10s", nilaiTugas[i][j]);
       }
 
       System.out.println(" |");
