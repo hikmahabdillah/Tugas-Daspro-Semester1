@@ -9,10 +9,10 @@ public class PenjumlahanRekursif {
     int f = sc.nextInt();
 
     int hasil = penjumlahanRekursif(f);
-    System.out.println("Hasil penjumlahan : " + hasil);
 
     System.out.println("Proses penjumlahan : ");
     prosesPenjumlahanRekursif(f);
+    System.out.println(" = " + hasil);
 
     sc.close();
   }
